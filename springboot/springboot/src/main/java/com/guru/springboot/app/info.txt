@@ -1,0 +1,2 @@
+1) we have created a todo class with some attributes
+2) 

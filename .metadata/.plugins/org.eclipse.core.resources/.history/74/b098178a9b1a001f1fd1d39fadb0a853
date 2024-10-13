@@ -1,0 +1,12 @@
+package QueueInterface;
+
+import java.util.Hashtable;
+
+public class Hashing {
+
+	@SuppressWarnings("rawtypes")
+	Hashtable h=new Hashtable();
+	h.put(1,4);
+	h.put(2,5);
+	
+}

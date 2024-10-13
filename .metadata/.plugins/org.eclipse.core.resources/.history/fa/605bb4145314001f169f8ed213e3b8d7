@@ -1,0 +1,11 @@
+package mypackage;
+
+public class First {
+
+	public static void main(String[] args) {
+		boolean a;
+		System.out.println("boolean value"+a);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package files;
+
+import java.io.BufferedWriter;
+import java.io.Writer;
+
+public class SecondFile {
+
+	public static void main(String[] args) {
+		Writer writer=new FileWriter("santos.txt")
+		BufferedWriter bw=new BufferedWriter();
+		
+	}
+}

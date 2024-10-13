@@ -1,0 +1,31 @@
+package com.guru.testing;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+public class NewTest {
+
+	@Test
+	public void test()
+	{
+		System.out.println("Hello");
+		//fail("not passed");
+	}
+	@Test
+	@DisplayName("Junit test for addition")
+	public void add()
+	{
+		int res=5;
+		assertEquals(res,2+3);
+	}
+	
+	@BeforeEach
+	public void display()
+	{
+		System.out.println("Before Each test");
+	}
+
+}

@@ -1,0 +1,15 @@
+package files;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class BasicFiles {
+	public static void main(String[] args) throws IOException {
+     FileOutputStream fos=new FileOutputStream("mine.txt");
+     fos.write('g');
+     fos.write(66);
+     fos.write("Santosh");
+     
+	}
+
+}

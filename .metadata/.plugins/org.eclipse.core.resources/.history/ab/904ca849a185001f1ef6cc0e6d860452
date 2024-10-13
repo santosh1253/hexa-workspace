@@ -1,0 +1,32 @@
+package Compartor;
+
+@FunctionalInterface
+interface inter
+{
+	void f1();
+	default void m2() {
+	}
+	public static void m3()
+	{
+		
+	}
+}
+public class My implements inter {
+	
+	public static void main(String args[])
+	{
+		inter i=()->{
+			System.out.println("Lambda Expresssion");
+		};
+		i.f1();
+		
+	}
+
+	@Override
+	public void f1() {
+		// TODO Auto-generated method stub
+		
+	}
+	 
+}
+ 

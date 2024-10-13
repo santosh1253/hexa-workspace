@@ -1,0 +1,21 @@
+package com.guru.testing;
+
+public class Student {
+	
+	private Student()
+	{
+		
+	}
+	public Student getInstance()
+	{
+		return new Student();
+	}
+	public void display()
+	{
+		System.out.println("From Display");
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

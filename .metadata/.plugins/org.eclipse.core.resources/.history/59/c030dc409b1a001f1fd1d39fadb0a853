@@ -1,0 +1,9 @@
+package QueueInterface;
+
+import java.util.Hashtable;
+
+public class Hashing {
+
+	Hashtable h=new Hashtable();
+	
+}

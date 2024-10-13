@@ -1,0 +1,23 @@
+package com.guru.testing;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+
+public class NewTest {
+
+	@Test
+	public void test()
+	{
+		System.out.println("Hello");
+		//fail("not passed");
+	}
+	@Test
+	public void add()
+	{
+		int res=5;
+		assertEquals(res,2+3);
+	}
+
+}

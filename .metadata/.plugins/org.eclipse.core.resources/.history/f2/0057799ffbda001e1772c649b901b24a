@@ -1,0 +1,24 @@
+package coding;
+@FunctionalInterface
+interface inter
+{
+	void f1();
+	default void m2() {
+	}
+	public static void m3()
+	{
+		
+	}
+}
+public class My {
+	
+	public static void main(String args[])
+	{
+		inter i=()->{
+			System.out.println("Lambda Expresssion");
+		};
+		
+	}
+	 
+}
+ 

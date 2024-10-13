@@ -1,0 +1,17 @@
+package coding;
+
+
+interface inter
+{
+	
+}
+public class My {
+	
+	public static void main(String args[])
+	{
+		
+		
+	}
+	 
+}
+ 

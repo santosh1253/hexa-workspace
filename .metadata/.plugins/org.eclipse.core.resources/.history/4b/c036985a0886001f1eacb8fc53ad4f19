@@ -1,0 +1,17 @@
+package com.guru.testing;
+
+public class Student {
+	
+	private Student()
+	{
+		
+	}
+	public Student getInstance()
+	{
+		return new Student();
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

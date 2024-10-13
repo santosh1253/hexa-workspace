@@ -1,0 +1,12 @@
+package files;
+
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+public class Example04 {
+	
+	File f=new File("guru.JPG");
+	BufferedImage bi=new BufferedImage(200px,400px,BufferedImage.);
+
+}

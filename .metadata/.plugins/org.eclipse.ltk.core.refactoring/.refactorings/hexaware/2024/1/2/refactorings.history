@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;student.hexaware&apos; to &apos;student_sys&apos;&#x0D;&#x0A;- Original project: &apos;hexaware&apos;&#x0D;&#x0A;- Original element: &apos;hexaware/src/main/java/student.hexaware&apos;&#x0D;&#x0A;- Renamed element: &apos;hexaware/src/main/java/student_sys&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;student.hexaware&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;student.hexaware" name="student_sys" qualified="false" references="true" stamp="1704790027405" textual="false" version="1.0"/>
+</session>

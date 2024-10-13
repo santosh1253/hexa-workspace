@@ -1,0 +1,10 @@
+package files;
+
+import java.io.File;
+
+public class Example04 {
+	
+	File f=new File("guru.JPG");
+	
+
+}

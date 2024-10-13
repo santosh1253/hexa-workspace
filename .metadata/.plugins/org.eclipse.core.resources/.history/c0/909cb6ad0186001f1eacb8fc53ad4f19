@@ -1,0 +1,13 @@
+package com.guru.testing;
+
+import org.junit.jupiter.api.Test;
+
+public class NewTest {
+
+	@Test
+	public void test()
+	{
+		System.out.println("Hello");
+	}
+
+}

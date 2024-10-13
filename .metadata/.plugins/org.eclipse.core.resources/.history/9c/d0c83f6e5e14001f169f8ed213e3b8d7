@@ -1,0 +1,21 @@
+package mypackage;
+
+public class First {
+	boolean f;
+	int a;
+	float b;
+	char ch;
+	
+
+	public static void main(String[] args) {
+		
+		System.out.println("boolean value"+f);
+		System.out.println("int value"+a);
+
+		System.out.println("float value"+b);
+		System.out.println("char value"+ch);
+	
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package coding;
+
+import java.util.Scanner;
+
+@FunctionalInterface
+interface inter
+{
+	void f1();
+	default void m2() {
+	}
+	public static void m3()
+	{
+		
+	}
+}
+public class My {
+	
+	public static void main(String args[])
+	{
+		inter i=()->{
+			System.out.println("Lambda Expresssion");
+			Scanner s=new Scanner(System.in);
+			int a=s.nextInt();
+			int b=s.nextInt();
+			System.out.println(a+b);
+		};
+		i.f1();
+		
+	}
+	 
+}
+ 

@@ -1,0 +1,12 @@
+package files;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class BasicFiles {
+	public static void main(String[] args) throws FileNotFoundException {
+     FileOutputStream fos=new FileOutputStream("mine.txt");
+     fos.write("Guru");
+	}
+
+}
